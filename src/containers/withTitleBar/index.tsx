@@ -3,7 +3,7 @@
 */
 
 import React from "react";
-import StyledContainer from "./StyledContainer";
+import StyledContainer from "../container/StyledContainer";
 import StyledTitleBar from "./StyledTitleBar";
 import { ContainerProps } from "./type";
 
