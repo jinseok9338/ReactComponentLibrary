@@ -1,7 +1,13 @@
 import type { NextPage } from "next";
 
+import WindowTheme from "./windowTheme";
+
 const Home: NextPage = () => {
-  return <h1 className="text-yellow-300">Hello world!</h1>;
+  return (
+    <>
+      <WindowTheme />
+    </>
+  );
 };
 
 export default Home;
